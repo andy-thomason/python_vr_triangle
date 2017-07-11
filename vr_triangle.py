@@ -8,6 +8,8 @@ from OpenGL.GL.shaders import compileShader, compileProgram
 from openvr.glframework import shader_string
 from sdl2 import *
 
+# see https://github.com/cmbruns/pyopenvr
+
 class OpenVRTest(object):
   "Tiny OpenVR example with python (based on openvr example)"
 
